@@ -33,10 +33,19 @@ const Hero: React.FC = () => {
         </motion.p>
         <motion.a
           href="#missions"
-          className="bg-gradient-to-r from-cyan-500 to-purple-500 text-white font-bold py-3 px-8 rounded-full text-lg hover:scale-105 transition-transform duration-300 shadow-xl shadow-cyan-500/40 inline-block"
+          className="bg-gradient-to-r from-cyan-500 to-purple-500 text-white font-bold py-3 px-8 rounded-full text-lg shadow-xl shadow-cyan-500/40 inline-block"
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5, delay: 0.6 }}
+          whileHover={{
+            scale: 1.05,
+            transition: {
+              duration: 0.8,
+              repeat: Infinity,
+              repeatType: 'reverse',
+              ease: 'easeInOut',
+            },
+          }}
         >
           Start Your Journey
         </motion.a>
