@@ -1,14 +1,15 @@
+
 import React from 'react';
 // Fix: Import 'motion' from 'framer-motion' instead of accessing it from the window object.
 import { motion } from 'framer-motion';
 
 const galleryImages = [
-  "https://picsum.photos/seed/nebula/500/700",
-  "https://picsum.photos/seed/stars/500/300",
-  "https://picsum.photos/seed/planet/500/400",
-  "https://picsum.photos/seed/rocket/500/600",
-  "https://picsum.photos/seed/astronaut/500/500",
-  "https://picsum.photos/seed/observatory/500/400"
+  "https://images.unsplash.com/photo-1506318137071-a8e063b4bec0?q=80&w=2093&auto=format&fit=crop", // Nebula
+  "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?q=80&w=2072&auto=format&fit=crop", // Earth
+  "https://images.unsplash.com/photo-1545156521-77bd85175853?q=80&w=1935&auto=format&fit=crop", // Astronaut
+  "https://images.unsplash.com/photo-1517976487-151248999813?q=80&w=2070&auto=format&fit=crop", // Saturn
+  "https://images.unsplash.com/photo-1614728836526-79b0a1538317?q=80&w=2070&auto=format&fit=crop", // Mars Rover
+  "https://images.unsplash.com/photo-1570284613060-766c33850e00?q=80&w=2070&auto=format&fit=crop"  // Rocket launch
 ];
 
 const Gallery: React.FC = () => {

@@ -1,3 +1,4 @@
+
 import React from 'react';
 // Fix: Import 'motion' from 'framer-motion' instead of accessing it from the window object.
 import { motion } from 'framer-motion';
@@ -7,7 +8,7 @@ const Hero: React.FC = () => {
     <section className="min-h-screen flex items-center justify-center relative overflow-hidden" id="home">
       <motion.div
         className="absolute inset-0 bg-cover bg-center z-0"
-        style={{ backgroundImage: "url('https://picsum.photos/seed/galaxy/1920/1080')" }}
+        style={{ backgroundImage: "url('https://images.unsplash.com/photo-1454789548928-9efd52dc4031?q=80&w=1780&auto=format&fit=crop')" }}
         initial={{ scale: 1.1, opacity: 0.8 }}
         animate={{ scale: 1, opacity: 1 }}
         transition={{ duration: 10, ease: 'easeInOut', repeat: Infinity, repeatType: 'reverse' }}
@@ -29,7 +30,7 @@ const Hero: React.FC = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.4 }}
         >
-          Unveiling the universe's secrets, one discovery at a time. Join our mission to push the boundaries of space exploration and innovation.
+          Dive into a universe of data and imagery from NASA's most ambitious missions. Your journey through space starts here.
         </motion.p>
         <motion.a
           href="#missions"

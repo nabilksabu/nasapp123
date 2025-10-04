@@ -10,18 +10,18 @@ export const NAV_LINKS: NavLink[] = [
 
 export const FEATURES_DATA: Feature[] = [
     {
-        title: "Real-Time Tracking",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuada.",
-        imageUrl: "https://picsum.photos/seed/satellite/600/400"
+        title: "Track the ISS",
+        description: "Follow the International Space Station in real-time as it orbits our planet. Access crew information, live video feeds, and experiment data.",
+        imageUrl: "https://images.unsplash.com/photo-1614726343553-9defa968a35a?q=80&w=2070&auto=format&fit=crop"
     },
     {
-        title: "High-Res Imagery",
-        description: "Cras et dui iaculis, tempor justo ut, sagittis nunc. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-        imageUrl: "https://picsum.photos/seed/earth/600/400"
+        title: "Journey to Mars",
+        description: "Explore the Red Planet with data from rovers like Perseverance and Curiosity. Analyze geological data, weather patterns, and high-resolution imagery.",
+        imageUrl: "https://images.unsplash.com/photo-1614728263952-84ea256ec346?q=80&w=2070&auto=format&fit=crop"
     },
     {
-        title: "Planetary Data",
-        description: "Nullam et tortor et nisi eleifend tristique. Sed auctor sem et consequat efficitur. Mauris vel nunc at lorem auctor commodo.",
-        imageUrl: "https://picsum.photos/seed/mars/600/400"
+        title: "Deep Space Imagery",
+        description: "Gaze into the cosmos with breathtaking images from the James Webb and Hubble space telescopes. Discover distant galaxies, nebulae, and stellar nurseries.",
+        imageUrl: "https://images.unsplash.com/photo-1541873676-a18131494184?q=80&w=1918&auto=format&fit=crop"
     }
 ];

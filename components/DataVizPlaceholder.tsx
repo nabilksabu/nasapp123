@@ -1,3 +1,4 @@
+
 import React from 'react';
 // Fix: Import 'motion' from 'framer-motion' instead of accessing it from the window object.
 import { motion } from 'framer-motion';
@@ -26,9 +27,9 @@ const DataVizPlaceholder: React.FC = () => {
             viewport={{ once: true, amount: 0.5 }}
             transition={{ duration: 0.7 }}
         >
-          <h2 className="text-4xl font-bold text-center mb-4 font-orbitron">Live Telemetry Data</h2>
+          <h2 className="text-4xl font-bold text-center mb-4 font-orbitron">Mission Telemetry Dashboard</h2>
           <p className="text-lg text-gray-400 text-center max-w-3xl mx-auto mb-12">
-            Visualizing complex data streams to make informed decisions in real-time. This is a placeholder for future data integration.
+            Visualizing real-time data from active missions. This placeholder demonstrates potential for live telemetry tracking of spacecraft vitals.
           </p>
         </motion.div>
 
@@ -44,7 +45,7 @@ const DataVizPlaceholder: React.FC = () => {
               <Bar key={index} height={height} delay={index * 0.1 + 0.5} />
             ))}
           </div>
-          <p className="text-center text-gray-500 mt-4 text-sm">Signal Strength (dBm)</p>
+          <p className="text-center text-gray-500 mt-4 text-sm">Key Telemetry Metrics</p>
         </motion.div>
       </div>
     </section>

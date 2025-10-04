@@ -1,3 +1,4 @@
+
 import React from 'react';
 import FeatureCard from './FeatureCard';
 import { FEATURES_DATA } from '../constants';
@@ -15,9 +16,9 @@ const FeaturesGrid: React.FC = () => {
           viewport={{ once: true, amount: 0.5 }}
           transition={{ duration: 0.7 }}
         >
-          <h2 className="text-4xl font-bold text-center mb-4 font-orbitron">Core Mission Objectives</h2>
+          <h2 className="text-4xl font-bold text-center mb-4 font-orbitron">Explore Our Missions</h2>
           <p className="text-lg text-gray-400 text-center max-w-3xl mx-auto mb-12">
-            Our project focuses on key areas of space technology to provide groundbreaking insights and capabilities.
+            From our own cosmic backyard to the farthest reaches of the universe, explore the data and discoveries from iconic NASA missions.
           </p>
         </motion.div>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
