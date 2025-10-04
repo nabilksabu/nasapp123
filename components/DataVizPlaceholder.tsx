@@ -1,7 +1,6 @@
-
 import React from 'react';
-
-declare const motion: any;
+// Fix: Import 'motion' from 'framer-motion' instead of accessing it from the window object.
+import { motion } from 'framer-motion';
 
 const Bar: React.FC<{ height: string; delay: number }> = ({ height, delay }) => {
   return (

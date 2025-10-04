@@ -1,10 +1,9 @@
-
 import React, { useState, useEffect } from 'react';
 import { NAV_LINKS } from '../constants';
 import { RocketIcon } from './icons';
 import type { NavLink } from '../types';
-
-declare const motion: any;
+// Fix: Import 'motion' from 'framer-motion' instead of accessing it from the window object.
+import { motion } from 'framer-motion';
 
 const Header: React.FC = () => {
   const [scrolled, setScrolled] = useState(false);

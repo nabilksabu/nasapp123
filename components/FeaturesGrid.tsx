@@ -1,10 +1,9 @@
-
 import React from 'react';
 import FeatureCard from './FeatureCard';
 import { FEATURES_DATA } from '../constants';
 import type { Feature } from '../types';
-
-declare const motion: any;
+// Fix: Import 'motion' from 'framer-motion' instead of accessing it from the window object.
+import { motion } from 'framer-motion';
 
 const FeaturesGrid: React.FC = () => {
   return (
